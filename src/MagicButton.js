@@ -16,6 +16,7 @@ class MagicButton extends Component {
       times: this.state.times + 1
     });
 
+    // appel de la callback présente parmis mes props
     this.props.augmenter();
   }
 
